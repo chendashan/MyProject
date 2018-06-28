@@ -43,6 +43,7 @@ public class FeatureActivity extends AppCompatActivity implements View.OnClickLi
         mTvMessage.setText(event.getMessage());
     }
 
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
