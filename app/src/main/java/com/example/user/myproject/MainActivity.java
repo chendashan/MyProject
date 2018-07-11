@@ -3,6 +3,7 @@ package com.example.user.myproject;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btFeature1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("MainActivity", "弹出");
                 Toast.makeText(MainActivity.this, "这是功能分支1", Toast.LENGTH_SHORT).show();
             }
         });
