@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btFeature1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "功能分支1", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "这是功能分支1", Toast.LENGTH_SHORT).show();
             }
         });
     }
